@@ -1,0 +1,44 @@
+.section-lorem {
+  justify-content: center;
+  background: var(--main-portfolio);
+  margin: 94px 0;
+}
+
+.lorem {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-basis: calc(100% / 4 -30px);
+
+  .lorem__item:not(:last-child) {
+    padding-right: 30px;
+  }
+
+  .lorem__title {
+    color: var(--title-lorem);
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+
+  .lorem__text {
+    color: var(--text-lorem);
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .lorem__icon {
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-team);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}

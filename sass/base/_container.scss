@@ -1,0 +1,22 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    min-width: 320px;
+    padding: 16px 15px 0 15px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+/*.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  justify-content: center;
+}*/

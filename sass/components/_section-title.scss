@@ -1,0 +1,49 @@
+.section-title {
+  justify-content: center;
+  background: var(--background-footer);
+  height: 600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/team.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.title-page {
+  color: var(--text-action-color);
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  letter-spacing: 0.06em;
+}
+
+.button-order {
+  background: var(--action-color);
+  color: var(--text-action-color);
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  width: 200px;
+  margin-left: 500px;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 200px;
+}
