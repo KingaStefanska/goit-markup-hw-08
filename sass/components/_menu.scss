@@ -1,42 +1,73 @@
-.menu {
-  background: var(--background-menu);
-  width: 528px;
-  height: 581px;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transform: translate(-50%, -50%);
-  opacity: 1;
+@media screen and (max-width: 480px) {
+  .menu {
+    display: none;
+    background: var(--background-menu);
+    position: relative;
 
-  .menu__button {
-    width: 30px;
-    height: 30px;
-    background-color: var(--background-menu);
-    fill: var(--leading-color);
-    border: 1px solid #0000001a;
-    border-radius: 50%;
-    position: absolute;
-    top: 8px;
-    right: 8px;
+    .menu__button {
+      background-color: var(--background-menu);
+      justify-content: flex-end;
+      padding-top: 10px;
+      padding-right: 15px;
+      position: relative;
+    }
+
+    .menu__button--closing {
+      background-color: var(--background-menu);
+      fill: var(--leading-color);
+      border: none;
+    }
+
+    .menu__agency--active {
+      color: var(--action-color);
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 47px;
+      letter-spacing: 0.02em;
+    }
+
+    .menu__portfolio,
+    .menu__contact {
+      color: var(--leading-color);
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 47px;
+      letter-spacing: 0.02em;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button-is-hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
   }
 
-  .menu__agency--active {
-    color: var(--action-color);
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-    letter-spacing: 0.02em;
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .button-is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
   }
 
-  .menu__portfolio,
-  .menu__contact {
-    color: var(--leading-color);
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-    letter-spacing: 0.02em;
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 }
