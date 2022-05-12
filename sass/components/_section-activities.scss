@@ -1,5 +1,22 @@
+@media screen and (max-width: 767px) {
+  .section-activities {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-activities {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-activities {
+    display: flex;
+  }
+}
+
 .section-activities {
-  display: flex;
   justify-content: center;
 }
 
