@@ -58,10 +58,11 @@
 
 @media screen and (min-width: 1200px) {
   .container-title {
-    width: 1600px;
+    width: 1200px;
     height: 600px;
     background-image: url(../images/team_desktop.jpg);
     background-size: cover;
+    background-position: 50% 50%;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -78,11 +79,6 @@
     font-size: 44px;
     line-height: 1.36;
     padding-top: 200px;
-  }
-
-  .button-order {
-    margin-left: 500px;
-    margin-bottom: 200px;
   }
 }
 
