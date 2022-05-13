@@ -1,16 +1,67 @@
+@media screen and (max-width: 767px) {
+  .buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .buttons__item:nth-child(1) {
+    margin-right: 8px;
+    margin-top: 60px;
+  }
+
+  .buttons__item:nth-child(2) {
+    margin-right: 8px;
+    margin-top: 60px;
+  }
+
+  .buttons__item:nth-child(3) {
+    margin-right: 73px;
+    margin-top: 60px;
+  }
+
+  .buttons__item:nth-child(4) {
+    margin-right: 8px;
+    margin-top: 15px;
+  }
+
+  .buttons__item:nth-child(5) {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .buttons {
+    justify-content: center;
+    padding-left: 62px;
+    padding-right: 61px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .buttons__item:not(:last-child) {
+    padding-right: 6px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .buttons {
+    justify-content: center;
+    padding-left: 15px;
+    margin-right: 310px;
+    margin-bottom: 34px;
+    margin-left: 310px;
+
+    .buttons__item {
+      padding-right: 8px;
+      padding-bottom: 16px;
+      margin-top: 94px;
+    }
+  }
+}
+
 .buttons {
   display: flex;
-  justify-content: center;
-  padding-left: 15px;
-  margin-right: 310px;
-  margin-bottom: 34px;
-  margin-left: 310px;
-
-  .buttons__item {
-    padding-right: 8px;
-    padding-bottom: 16px;
-    margin-top: 94px;
-  }
 
   .buttons__btn {
     color: var(--title-lorem);

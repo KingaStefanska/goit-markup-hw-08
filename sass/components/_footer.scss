@@ -1,3 +1,155 @@
+@media screen and (max-width: 767px) {
+  .footer {
+    justify-content: center;
+  }
+
+  .container-footer {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .form__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .sign-up-button {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+  }
+
+  .sign-up-button__icon {
+    margin-left: 24px;
+    margin-right: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer {
+    justify-content: center;
+  }
+
+  .container-footer {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .form__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .sign-up-button {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-left: 235.15px;
+  }
+
+  .sign-up-button__icon {
+    margin-left: 24px;
+    margin-right: 28px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-footer {
+    width: 1200px;
+    justify-content: flex-start;
+  }
+
+  .logo-inline {
+    margin-right: 171px;
+  }
+
+  .phone-footer {
+    padding-bottom: 60px;
+  }
+
+  .form {
+    margin-left: 78px;
+
+    .form__input {
+      width: 358px;
+      margin-right: 12px;
+    }
+  }
+
+  .sign-up {
+    margin-left: 78px;
+  }
+
+  .footer .sign-up-button {
+    position: relative;
+    padding-right: 76px;
+  }
+
+  .sign-up-button {
+    display: relative;
+
+    .sign-up-button__icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 28px;
+    }
+  }
+}
+
 .footer {
   background: var(--background-footer);
   padding-top: 60px;
@@ -6,10 +158,8 @@
 
 .container-footer {
   display: flex;
-  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  justify-content: flex-start;
 }
 
 .logo-inline {
@@ -21,7 +171,6 @@
   text-decoration: none;
   padding-bottom: 20px;
   display: inline;
-  margin-right: 171px;
 
   .logo-inline__span {
     color: var(--text-action-color);
@@ -46,10 +195,6 @@
   display: flex;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
-}
-
-.phone-footer {
-  padding-bottom: 60px;
 }
 
 .e-mail-footer:hover,
@@ -105,12 +250,9 @@
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  margin-left: 78px;
 
   .form__input {
-    width: 358px;
     height: 50px;
-    margin-right: 12px;
     padding: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
@@ -134,7 +276,6 @@
 .sign-up {
   width: 207px;
   height: 16px;
-  margin-left: 78px;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -143,13 +284,7 @@
   color: var(--background-menu);
 }
 
-.footer .sign-up-button {
-  position: relative;
-  padding-right: 76px;
-}
-
 .sign-up-button {
-  display: relative;
   padding-top: 10px;
   padding-left: 42px;
   padding-bottom: 10px;
@@ -160,11 +295,4 @@
   color: var(--background-menu);
   border-style: none;
   font-weight: 700;
-
-  .sign-up-button__icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 28px;
-  }
 }
