@@ -80,10 +80,15 @@
     line-height: 1.36;
     padding-top: 200px;
   }
+
+  .button-order {
+    margin-left: 500px;
+    margin-bottom: 118px;
+  }
 }
 
 .section-title {
-  width: 1200px;
+  max-width: 1200px;
   justify-content: center;
   background: var(--background-footer);
   background-image: linear-gradient(
