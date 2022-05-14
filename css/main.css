@@ -21,7 +21,7 @@
   font-family: var(--main-font), var(--second-font);
   background: var(--background-menu);
   min-width: 320px;
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -638,10 +638,11 @@ img {
 
 @media screen and (min-width: 1200px) {
   .container-title {
-    width: 1600px;
+    width: 1200px;
     height: 600px;
     background-image: url(../images/team_desktop.jpg);
     background-size: cover;
+    background-position: 50% 50%;
   }
 }
 
@@ -658,13 +659,10 @@ img {
     line-height: 1.36;
     padding-top: 200px;
   }
-  .button-order {
-    margin-left: 500px;
-    margin-bottom: 200px;
-  }
 }
 
 .section-title {
+  width: 1200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
